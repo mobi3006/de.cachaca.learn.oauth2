@@ -15,3 +15,4 @@ This repository simplifies the deployment of the examples in the excellent book 
   * Protected Resource: http://localhost:9002
 
 For further insights have a look into log output (`docker-compolse logs`) or check network traffic with browser tools like Chrome Developer Tools.
+
