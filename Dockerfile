@@ -12,5 +12,3 @@ RUN npm install
 
 # book code
 COPY ./book-oauth2-in-action-code/example/ ./
-
-EXPOSE 9000
