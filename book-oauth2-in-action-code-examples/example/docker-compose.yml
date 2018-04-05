@@ -1,0 +1,6 @@
+version: '2'
+
+services:
+    authorization-server:
+    protected-resource:
+    client:
