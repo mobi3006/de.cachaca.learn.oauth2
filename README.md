@@ -2,7 +2,7 @@
 
 This repository simplifies the deployment of the Authorization Code Grant Type (!!! only this one is already prepared out-of-the-box !!!) example in the excellent book [OAuth 2 in Action](https://www.manning.com/books/oauth-2-in-action) by Justin Richer and Antonio Sanso. It uses the examples provided at [GitHub](https://github.com/oauthinaction) - this code is integrated into this repository (folder *oauth-in-action-code*).
 
-> DISCLAIMER: it seems that it currently does not work on MacOS because I used `network_mode=host` is not fully supported (maybe because of the Docker approach on this platform (having a Linux-Image in the background that works on behalf of MacOS Docker CLI). Have a look at this discussion: https://github.com/docker/for-mac/issues/1031
+> DISCLAIMER: it seems that it currently does not work on MacOS because I used `network_mode=host` is not fully supported (maybe because of the Docker approach on this platform - having a Linux-Image in the background that works on behalf of MacOS Docker CLI). Have a look at this discussion: https://github.com/docker/for-mac/issues/1031
 
 ## Getting Started
 
