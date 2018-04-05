@@ -8,7 +8,7 @@ This repository simplifies the deployment of the Authorization Code Grant Type (
 * install Docker-Compose
 * `git clone git@github.com:mobi3006/de.cachaca.learn.oauth2.git`
 * `cd de.cachaca.learn.oauth2`
-* `docker-compose up -d`
+* `docker-compose up` (alternatively `docker-compose up -d`)
 * open browser and use the web applications
   * Client: http://localhost:9000
   * Authorization-Server: http://localhost:9001
