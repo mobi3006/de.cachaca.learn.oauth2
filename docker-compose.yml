@@ -7,21 +7,21 @@ version: '2'
 
 services:
     client:
-        image: mobi3006/oauth-in-action
+        image: mobi3006/oauth2-in-action
         build: .
         network_mode: "host"
         ports:
              - "9000:9000"
         command: node client.js
     authorization-server:
-        image: mobi3006/oauth-in-action
+        image: mobi3006/oauth2-in-action
         build: .
         network_mode: "host"
         ports:
              - "9001:9001"
         command: node authorizationServer.js
     protected-resource:
-        image: mobi3006/oauth-in-action
+        image: mobi3006/oauth2-in-action
         build: .
         network_mode: "host"
         ports:
